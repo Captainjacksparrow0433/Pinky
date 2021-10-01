@@ -35,7 +35,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*ᴊɪɴᴀ ᴍᴏᴡʟ ᴍᴀᴅᴇ ʙʏ ᴀʙɪɴ🤗*\n\n*contact*http://wa.me/919061103727' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*ᴊɪɴᴀ ᴍᴏᴡʟ ᴍᴀᴅᴇ ʙʏ ᴀʙɪɴ🤗*\n\n*contact*\n\n http://wa.me/919061103727' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text);
