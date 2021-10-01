@@ -23,7 +23,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 MyPnky.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```cleaning chat...```');
+    await message.sendMessage('```cleaning chat🧹🧹🧹🧹...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
     await message.sendMessage('```🏳 Chat cleared 🏳```');
 }));
