@@ -22,6 +22,7 @@ module.exports = {
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
+    OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     AFN: process.env.ALL_CAPTION === undefined ? 'MADE BY PINKY' : process.env.ALL_CAPTION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
