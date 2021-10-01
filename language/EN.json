@@ -237,14 +237,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update for pinky.",
-            "UPDATE": "ʏᴏᴜʀ ᴘɪɴᴋʏ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ",
-            "NEW_UPDATE": "*New update available for Jacki!*\n\n ```use .list for commands``` \n\n *jacki might stop working while updating* \n\n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
+            "UPDATE": "ᴊɪɴᴀ ᴍᴏᴡʟ ɪs ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ",
+            "NEW_UPDATE": "*New update available for Jina!*\n\n ```use .list for commands``` \n\n *jina might stop working while updating* \n\n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "ᴘɪɴᴋʏ ᴜᴘᴅᴀᴛɪɴɢ...",
+            "UPDATING": "ᴊɪɴᴀ ᴜᴘᴅᴀᴛɪɴɢ.......",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ!*",
+            "UPDATED": "*✅Jina updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*Jacki restarting!*",
+            "AFTER_UPDATE": "*Jina restarting!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
