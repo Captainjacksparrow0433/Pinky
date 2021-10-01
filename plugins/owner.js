@@ -1,3 +1,8 @@
+/* Copyright (C) 2020 Yusuf Usta.
+re edited by afnan-plk  
+PINKY V2 
+*/
+
 const MyPinky = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
