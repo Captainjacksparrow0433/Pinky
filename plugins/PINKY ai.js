@@ -81,7 +81,7 @@ MyPnky.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteComma
             }
         } else { trmsg = finm }
         var uren = encodeURI(trmsg)
-        await axios.get('http://api.brainshop.ai/get?bid=160077&key=Xc4CcN37XJTRNqOQ&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
+        await axios.get('http://api.brainshop.ai/get?bid=160083&key=xlb4WA0sLGkK5DgX&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
             var fins = ''                           
             if (conf.LANG !== 'EN') {
                 ceviri = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
@@ -114,7 +114,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
                             }
                         } else { trmsg = finm }
                         var uren = encodeURI(trmsg)
-                        await axios.get('http://api.brainshop.ai/get?bid=160077&key=Xc4CcN37XJTRNqOQ&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
+                        await axios.get('http://api.brainshop.ai/get?bid=160083&key=xlb4WA0sLGkK5DgX&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                             var fins = ''                           
                             if (conf.LANG !== 'EN') {
                                 ceviri = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
@@ -142,7 +142,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
                         }
                     } else { trmsg = finm }
                     var uren = encodeURI(trmsg)
-                    await axios.get('http://api.brainshop.ai/get?bid=160077&key=Xc4CcN37XJTRNqOQ&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
+                    await axios.get('http://api.brainshop.ai/get?bid=160083&key=xlb4WA0sLGkK5DgX&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                         var fins = ''                           
                         if (conf.LANG !== 'EN') {
                             ceviri = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
@@ -168,7 +168,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
                     }
                 } else { trmsg = finm }
                 var uren = encodeURI(trmsg)
-                await axios.get('http://api.brainshop.ai/get?bid=160077&key=Xc4CcN37XJTRNqOQ&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
+                await axios.get('http://api.brainshop.ai/get?bid=160083&key=xlb4WA0sLGkK5DgX&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                     var fins = ''                           
                     if (conf.LANG !== 'EN') {
                         ceviri = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
@@ -208,7 +208,7 @@ MyPnky.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true,
                 if (ainame !== 'Asena') return;
         
                 var son = encodeURI(ssc)
-                await axios.get('http://api.brainshop.ai/get?bid=160077&key=Xc4CcN37XJTRNqOQ&uid=' + unique_ident + '&msg=' + son).then(async (response) => {
+                await axios.get('http://api.brainshop.ai/get?bid=160083&key=xlb4WA0sLGkK5DgX&uid=' + unique_ident + '&msg=' + son).then(async (response) => {
                     var trmsg = ''
                     cevir = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
                     if ('text' in cevir) {
@@ -244,11 +244,11 @@ if (conf.LANG == 'TR') {
     succ_off = 'pinky, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Activates full functional Jacki features. Turn your account into a ai chatbot!'
-    already_on = 'Jacki artificial intelligence is already fully functional.'
-    already_off = 'Jacki artificial intelligence is currently running semi-functional.'
-    succ_on = 'Jacki Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Jack Set to Semi-Functional! Please wait a bit! ☑️'
+    fulleva_dsc = 'Activates full functional Jina features. Turn your account into a ai chatbot!'
+    already_on = 'Jina artificial intelligence is already fully functional.'
+    already_off = 'Jina artificial intelligence is currently running semi-functional.'
+    succ_on = 'Jina Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Jina Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ pinky സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
@@ -258,7 +258,7 @@ if (conf.LANG == 'ML') {
     succ_off = 'സെമി-ഫങ്ഷണൽ ആയി pinky സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
-MyPnky.addCommand({ pattern: 'jacki ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.jacki on / off' }, (async (message, match) => {
+MyPnky.addCommand({ pattern: 'jina ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.jina on / off' }, (async (message, match) => {
     var pinky_status = `${conf.TALKING_PINKY}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
