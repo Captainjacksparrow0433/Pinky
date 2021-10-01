@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Amalser by Amal*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*ᴊɪɴᴀ ᴍᴏᴡʟ*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
@@ -35,7 +35,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Amalser by Farhan_Dqz 💌 Amal*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*ᴊɪɴᴀ ᴍᴏᴡʟ ᴍᴀᴅᴇ ʙʏ ᴀʙɪɴ🤗*\n\n*contact*http://wa.me/919061103727' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text);
