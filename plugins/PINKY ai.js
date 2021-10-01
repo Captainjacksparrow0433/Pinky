@@ -244,11 +244,11 @@ if (conf.LANG == 'TR') {
     succ_off = 'pinky, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Activates full functional Pinky features. Turn your account into a ai chatbot!'
-    already_on = 'Pinky artificial intelligence is already fully functional.'
-    already_off = 'Pinky artificial intelligence is currently running semi-functional.'
-    succ_on = 'Pinky Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Pinky Set to Semi-Functional! Please wait a bit! ☑️'
+    fulleva_dsc = 'Activates full functional Jacki features. Turn your account into a ai chatbot!'
+    already_on = 'Jacki artificial intelligence is already fully functional.'
+    already_off = 'Jacki artificial intelligence is currently running semi-functional.'
+    succ_on = 'Jacki Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Jack Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ pinky സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
@@ -258,7 +258,7 @@ if (conf.LANG == 'ML') {
     succ_off = 'സെമി-ഫങ്ഷണൽ ആയി pinky സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
-MyPnky.addCommand({ pattern: 'pinky ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.pinky on / off' }, (async (message, match) => {
+MyPnky.addCommand({ pattern: 'jacki ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.jacki on / off' }, (async (message, match) => {
     var pinky_status = `${conf.TALKING_PINKY}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
