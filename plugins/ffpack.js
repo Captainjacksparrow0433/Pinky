@@ -154,7 +154,7 @@ if (Config.WORKTYPE == 'public') {
 
  
 
-  Julie.addCommand({ pattern: 'ff11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  MyPinky.addCommand({ pattern: 'ff11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
