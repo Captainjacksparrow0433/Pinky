@@ -1,5 +1,5 @@
 const MyPinky = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
