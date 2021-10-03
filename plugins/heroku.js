@@ -167,7 +167,7 @@ MyPnky.addCommand({pattern: 'restart$', fromMe: true, dontAddCommandList: true, 
     });
 }));
 
-MyPnky.addCommand({pattern: 'shutdown$', fromMe: true, dontAddCommandList: true, desc: Lang.SHUTDOWN_DESC}, (async(message, match) => {
+MyPnky.addCommand({pattern: 'system$', fromMe: true, dontAddCommandList: true, desc: Lang.SHUTDOWN_DESC}, (async(message, match) => {
 
     await heroku.get(baseURI + '/formation').then(async (formation) => {
         forID = formation[0].id;
