@@ -54,6 +54,7 @@ module.exports = {
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     PLKS: process.env.THERI_LIST_GP === undefined ? false : process.env.THERI_LIST_GP,
+    AFPLK: process.env.YT_PASSWORD === undefined ? false : process.env.YT_PASSWORD,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
