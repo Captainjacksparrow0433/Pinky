@@ -19,7 +19,6 @@
          "YT_PASSWORD": {
             "description": "enter the password,to get password contact me .",
             "required": true
-            "value": "password"
         },
         "LANGUAGE": {
             "description": "only en & ml language is available",
